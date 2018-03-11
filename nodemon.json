@@ -1,0 +1,6 @@
+{
+  "watch": ["freeCodeCamp"],
+  "ext": "ts",
+  "ignore": ["freeCodeCamp/*-test.ts"],
+  "exec": "ts-node ./freeCodeCamp/no-repeats-please.ts"
+}

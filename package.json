@@ -2,18 +2,22 @@
   "name": "js-exercises",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "dependencies": {
     "ava": "^0.25.0",
     "eslint": "^4.18.1",
     "eslint-config-standard": "^11.0.0",
     "husky": "^0.14.3",
+    "nodemon": "^1.15.1",
     "tap-nyan": "^1.1.0",
+    "ts-node": "^5.0.0",
     "typescript": "^2.7.2"
   },
   "devDependencies": {},
   "scripts": {
     "precommit": "npm test",
+    "dev": "nodemon",
+    "debug": "node dist/no-repeats-please.js",
+    "build": "tsc",
     "test": "tsc && ava dist/*test.js --tap | tap-nyan"
   },
   "author": "Arpad Cseh",
