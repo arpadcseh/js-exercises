@@ -18,26 +18,26 @@ These methods must be the only available means of interacting with the object.
 -- Yeah I know, es6 classes would be nicer, but that couldn't meet with the exercise expectations
 */
 
-var Person = function (firstAndLast: string): void {
-    var [firstName, lastName] = firstAndLast.split(' ');
+const Person = function(firstAndLast: string): void {
+    let [firstName, lastName] = firstAndLast.split(' ');
 
-    this.getFullName = function () {
+    this.getFullName = () => {
         return firstName + ' ' + lastName;
     };
-    this.getFirstName = function () {
+    this.getFirstName = () => {
         return firstName;
     };
-    this.getLastName = function () {
+    this.getLastName = () => {
         return lastName;
     };
-    this.setFullName = function (fullName: string) {
+    this.setFullName = (fullName: string) => {
         [firstName, lastName] = fullName.split(' ');
     };
-    this.setFirstName = function (fName: string) {
+    this.setFirstName = (fName: string) => {
         firstName = fName;
         return firstName;
     };
-    this.setLastName = function (lName: string) {
+    this.setLastName = (lName: string) => {
         lastName = lName;
         return lastName;
     };
