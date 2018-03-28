@@ -7,7 +7,7 @@
 
 ## JavaScript exercises
 
-I try to keep my brain busy with various coding challanges as my daily work doesn't require much thinking. I use this repo to collect these challange solutions. Most of the exercises are covered with [AVA](https://github.com/avajs/ava) test and written in [TypeScript](https://www.typescriptlang.org/). Feel free to check them out :) 
+I try to keep my brain busy with various coding challanges. I use this repo to collect these challange solutions. Most of the exercises are covered with [AVA](https://github.com/avajs/ava) test and written in [TypeScript](https://www.typescriptlang.org/). Feel free to check them out :) 
 
 ## Installation
 
